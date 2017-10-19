@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD231ACF1A425A4100D6AAF5 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231ACE1A425A4100D6AAF5 /* util.swift */; };
+		DDD6C9441A42459000EA4FD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C9431A42459000EA4FD0 /* AppDelegate.swift */; };
+		DDD6C9461A42459000EA4FD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C9451A42459000EA4FD0 /* ViewController.swift */; };
+		DDD6C94B1A42459000EA4FD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD6C94A1A42459000EA4FD0 /* Images.xcassets */; };
+		DDD6C94E1A42459000EA4FD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD6C94C1A42459000EA4FD0 /* LaunchScreen.xib */; };
+		DDD6C9611A4246FD00EA4FD0 /* geojsonvt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C9341A40F77100EA4FD0 /* geojsonvt.swift */; };
+		DDD6C9621A4246FF00EA4FD0 /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C92A1A3F9F4E00EA4FD0 /* types.swift */; };
+		DDD6C9631A42470200EA4FD0 /* convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C9281A3F9F1600EA4FD0 /* convert.swift */; };
+		DDD6C9641A42470200EA4FD0 /* simplify.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C92C1A3FA03D00EA4FD0 /* simplify.swift */; };
+		DDD6C9651A42470200EA4FD0 /* tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C9321A40F74D00EA4FD0 /* tile.swift */; };
+		DDD6C9661A42470200EA4FD0 /* clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6C9301A40F73700EA4FD0 /* clip.swift */; };
+		DDD6C9671A42471300EA4FD0 /* threestates.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DDD6C92E1A40F70400EA4FD0 /* threestates.geojson */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD231ACE1A425A4100D6AAF5 /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		DDD6C9281A3F9F1600EA4FD0 /* convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convert.swift; sourceTree = "<group>"; };
+		DDD6C92A1A3F9F4E00EA4FD0 /* types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
+		DDD6C92C1A3FA03D00EA4FD0 /* simplify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simplify.swift; sourceTree = "<group>"; };
+		DDD6C92E1A40F70400EA4FD0 /* threestates.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = threestates.geojson; sourceTree = "<group>"; };
+		DDD6C9301A40F73700EA4FD0 /* clip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clip.swift; sourceTree = "<group>"; };
+		DDD6C9321A40F74D00EA4FD0 /* tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tile.swift; sourceTree = "<group>"; };
+		DDD6C9341A40F77100EA4FD0 /* geojsonvt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = geojsonvt.swift; sourceTree = "<group>"; };
+		DDD6C93F1A42459000EA4FD0 /* geojsonvt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geojsonvt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD6C9421A42459000EA4FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD6C9431A42459000EA4FD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD6C9451A42459000EA4FD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDD6C94A1A42459000EA4FD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDD6C94D1A42459000EA4FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD6C93C1A42459000EA4FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD6C9021A3F9EF600EA4FD0 = {
+			isa = PBXGroup;
+			children = (
+				DDD6C9401A42459000EA4FD0 /* geojsonvt */,
+				DDD6C90D1A3F9EF600EA4FD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD6C90D1A3F9EF600EA4FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6C93F1A42459000EA4FD0 /* geojsonvt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD6C9361A42450700EA4FD0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6C9341A40F77100EA4FD0 /* geojsonvt.swift */,
+				DDD6C92A1A3F9F4E00EA4FD0 /* types.swift */,
+				DDD6C9281A3F9F1600EA4FD0 /* convert.swift */,
+				DDD6C92C1A3FA03D00EA4FD0 /* simplify.swift */,
+				DDD6C9321A40F74D00EA4FD0 /* tile.swift */,
+				DDD6C9301A40F73700EA4FD0 /* clip.swift */,
+				DD231ACE1A425A4100D6AAF5 /* util.swift */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DDD6C9371A42450E00EA4FD0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6C92E1A40F70400EA4FD0 /* threestates.geojson */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		DDD6C9401A42459000EA4FD0 /* geojsonvt */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6C9431A42459000EA4FD0 /* AppDelegate.swift */,
+				DDD6C9451A42459000EA4FD0 /* ViewController.swift */,
+				DDD6C9411A42459000EA4FD0 /* Supporting Files */,
+				DDD6C9361A42450700EA4FD0 /* lib */,
+				DDD6C9371A42450E00EA4FD0 /* data */,
+			);
+			path = geojsonvt;
+			sourceTree = "<group>";
+		};
+		DDD6C9411A42459000EA4FD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6C9421A42459000EA4FD0 /* Info.plist */,
+				DDD6C94A1A42459000EA4FD0 /* Images.xcassets */,
+				DDD6C94C1A42459000EA4FD0 /* LaunchScreen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD6C93E1A42459000EA4FD0 /* geojsonvt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD6C95B1A42459100EA4FD0 /* Build configuration list for PBXNativeTarget "geojsonvt" */;
+			buildPhases = (
+				DDD6C93B1A42459000EA4FD0 /* Sources */,
+				DDD6C93C1A42459000EA4FD0 /* Frameworks */,
+				DDD6C93D1A42459000EA4FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geojsonvt;
+			productName = geojsonvt;
+			productReference = DDD6C93F1A42459000EA4FD0 /* geojsonvt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD6C9031A3F9EF600EA4FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Mapbox;
+				TargetAttributes = {
+					DDD6C93E1A42459000EA4FD0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = L9NG53WPHY;
+					};
+				};
+			};
+			buildConfigurationList = DDD6C9061A3F9EF600EA4FD0 /* Build configuration list for PBXProject "geojsonvt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD6C9021A3F9EF600EA4FD0;
+			productRefGroup = DDD6C90D1A3F9EF600EA4FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD6C93E1A42459000EA4FD0 /* geojsonvt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD6C93D1A42459000EA4FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6C94B1A42459000EA4FD0 /* Images.xcassets in Resources */,
+				DDD6C94E1A42459000EA4FD0 /* LaunchScreen.xib in Resources */,
+				DDD6C9671A42471300EA4FD0 /* threestates.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD6C93B1A42459000EA4FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6C9461A42459000EA4FD0 /* ViewController.swift in Sources */,
+				DDD6C9441A42459000EA4FD0 /* AppDelegate.swift in Sources */,
+				DDD6C9641A42470200EA4FD0 /* simplify.swift in Sources */,
+				DD231ACF1A425A4100D6AAF5 /* util.swift in Sources */,
+				DDD6C9631A42470200EA4FD0 /* convert.swift in Sources */,
+				DDD6C9611A4246FD00EA4FD0 /* geojsonvt.swift in Sources */,
+				DDD6C9661A42470200EA4FD0 /* clip.swift in Sources */,
+				DDD6C9621A4246FF00EA4FD0 /* types.swift in Sources */,
+				DDD6C9651A42470200EA4FD0 /* tile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDD6C94C1A42459000EA4FD0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD6C94D1A42459000EA4FD0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD6C9201A3F9EF600EA4FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDD6C9211A3F9EF600EA4FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDD6C95C1A42459100EA4FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9NG53WPHY;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = geojsonvt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbox.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDD6C95D1A42459100EA4FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9NG53WPHY;
+				INFOPLIST_FILE = geojsonvt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbox.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD6C9061A3F9EF600EA4FD0 /* Build configuration list for PBXProject "geojsonvt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6C9201A3F9EF600EA4FD0 /* Debug */,
+				DDD6C9211A3F9EF600EA4FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD6C95B1A42459100EA4FD0 /* Build configuration list for PBXNativeTarget "geojsonvt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6C95C1A42459100EA4FD0 /* Debug */,
+				DDD6C95D1A42459100EA4FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD6C9031A3F9EF600EA4FD0 /* Project object */;
+}
