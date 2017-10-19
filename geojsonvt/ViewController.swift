@@ -10,7 +10,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("@!#!@#1")
         
         do {
             let json = try NSString(contentsOfFile: Bundle.main.path(forResource: "threestates", ofType: "geojson")!, encoding: String.Encoding.utf8.rawValue)
