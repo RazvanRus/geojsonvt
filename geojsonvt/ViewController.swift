@@ -12,9 +12,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        print("!@!@!@!")
-        
-        
         do {
             let json = try NSString(contentsOfFile: Bundle.main.path(forResource: "threestates", ofType: "geojson")!, encoding: String.Encoding.utf8.rawValue)
             NSLog("loaded up feature JSON of \(json.length) bytes")
@@ -32,8 +29,6 @@ class ViewController: UIViewController {
         }
         
         
-        print("$$$$")
-
         let size = self.view.bounds.size.width
 
         self.imageView = UIImageView(frame: CGRect(x: 0, y: (self.view.bounds.size.height - size) / 2, width: size, height: size))
