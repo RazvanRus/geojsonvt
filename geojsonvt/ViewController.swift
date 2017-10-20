@@ -33,9 +33,9 @@ class ViewController: UIViewController {
 
         self.imageView = UIImageView(frame: CGRect(x: 0, y: (self.view.bounds.size.height - size) / 2, width: size, height: size))
         self.imageView.isUserInteractionEnabled = true
-        self.imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector(("singleTap:"))))
+        self.imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(singleTap(gesture:))))
         self.imageView.addGestureRecognizer({
-            let gesture = UITapGestureRecognizer(target: self, action: Selector(("twoFingerTap:")))
+            let gesture = UITapGestureRecognizer(target: self, action: #selector(twoFingerTap(gesture:)))
             gesture.numberOfTouchesRequired = 2
             return gesture
             }())
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
                         let x = CGFloat((Double(point.x) / extent) * Double(size))
                         let y = CGFloat((Double(point.y) / extent) * Double(size))
                         let dot = CGRect(x: (x - radius), y: (y - radius), width: (radius * 2), height: (radius * 2))
-                        c?.addEllipse(in: dot)
+                        c!.addEllipse(in: dot)
                     } else {
                         var pointCount = 0
                         let ring = geometry as! TileRing
@@ -124,7 +124,7 @@ class ViewController: UIViewController {
         }
     }
 
-    func singleTap(gesture: UITapGestureRecognizer) {
+    @objc func singleTap(gesture: UITapGestureRecognizer) {
         let left = (gesture.location(in: gesture.view).x / self.view.bounds.size.width < 0.5)
         let top  = (gesture.location(in: gesture.view).y / self.view.bounds.size.width < 0.5)
 
@@ -141,7 +141,7 @@ class ViewController: UIViewController {
         self.drawTile()
     }
 
-    func twoFingerTap(gesture: UITapGestureRecognizer) {
+    @objc func twoFingerTap(gesture: UITapGestureRecognizer) {
         self.zoomOut()
         self.drawTile()
     }
